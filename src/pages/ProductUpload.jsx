@@ -73,7 +73,7 @@ export function ProductUpload() {
 
     const HandleSubmit = async () => {
         try{
-            const response = await axios.post('http://13.124.52.107/markets/products',{
+            const response = await axios.post('https://hanacoin.hasclassmatching.com/markets/products',{
                 "title": title,
                 "description": description,
                 "price": Number(price),

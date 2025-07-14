@@ -7,7 +7,7 @@ export function Login(props) {
 
   const handleLogin = async (username, password) => {
     try {
-      const response = await axios.post('http://13.124.52.107/users/login', {
+      const response = await axios.post('https://hanacoin.hasclassmatching.com/users/login', {
         username,
         password
       });
